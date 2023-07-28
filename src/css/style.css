@@ -1,0 +1,15 @@
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+body, .container{
+    display: flex;
+}
+
+.right{
+    background: center url(../images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

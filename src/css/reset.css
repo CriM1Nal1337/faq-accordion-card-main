@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    font-size: 62.5%
+  }
+
+  body{
+    position: relative;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  
+  .attribution {
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
