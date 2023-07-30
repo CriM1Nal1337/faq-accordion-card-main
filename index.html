@@ -23,13 +23,14 @@
   </head>
   <body>
     <main class="container">
-      <div class="left">
+      <picture class="left">
+        <source media="(max-width: 840px)" srcset="src/images/illustration-woman-online-mobile.svg">
         <img
           class="box"
           src="src/images/illustration-box-desktop.svg"
           alt="illustration box"
         />
-      </div>
+      </picture>
       <div class="right">
         <h1 class="title">FAQ</h1>
         <div class="list-acordeon">
@@ -61,7 +62,7 @@
                 class="icon"
               />
             </div>
-            <p class="paragrafh">
+            <p class="paragrafh hide">
               No more than 2GB. All files in your account must fit your allotted
               storage space.
             </p>

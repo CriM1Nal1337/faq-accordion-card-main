@@ -46,6 +46,7 @@ body,
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 3.4rem;
+    color: hsl(240, 9%, 21%);
 }
 
 .right .acordeon-show{
